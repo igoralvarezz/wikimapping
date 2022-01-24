@@ -4,7 +4,7 @@ Once scrapped, the Python script stores all the article's information locally us
 
 This is my capstone project for the [Python For Everybody Specialization](https://www.coursera.org/specializations/python).
 
-# Basic functions:
+## Basic functionalities:
 - Scrap the content of a Wikipedia article (english only for now), using the scrap_page.py script.
 - List all the countries mentioned in the article (with or without hyperlinks) and how many times each one was mentioned.
 - Get the basic information about the article scrapped (title, short-description, first paragraph, date/time of scrapping, total number of countries mentioned and total number of mentions for each and all countries together).
