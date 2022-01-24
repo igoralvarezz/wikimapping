@@ -8,6 +8,6 @@ This is my capstone project for the [Python For Everybody Specialization](https:
 - Scrap the content of a Wikipedia article (english only for now), using the scrap_page.py script.
 - List all the countries mentioned in the article (with or without hyperlinks) and how many times each one was mentioned.
 - Get the basic information about the article scrapped (title, short-description, first paragraph, date/time of scrapping, total number of countries mentioned and total number of mentions for each and all countries together).
-- Saves the info to an SQLite database and to a Json file.
+- Saves the info to an SQLite database and to a JSON file.
 - Generates a simple HTML/JS page to display the info
 - Draws a simple interactive SVG World Map to display the countries and how many time they were mentioned in the article (using Topojson and D3.js).
