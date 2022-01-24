@@ -1,0 +1,102 @@
+body {
+  font-family: sans-serif;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  background-color: #f6f6f6;
+  padding: 1em 5%;
+
+}
+
+article{
+  background-color: #fbfbfb;
+  margin-top: 2em;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:flex-start;
+  border: 1px solid #a7d7f9;
+  padding: 2em;
+}
+section{
+  padding: 0 2em
+}
+h1 {
+  margin-bottom: 0.25em;
+  padding: 0;
+  font-family: 'Linux Libertine','Georgia','Times',serif;
+  line-height: 1.3;
+  border-bottom: 1px solid #a2a9b1;
+  font-size: 2em;
+  font-variant: small-caps;
+}
+h1 + p{
+  font-size: 0.85em;
+  font-style: italic;
+  margin-bottom: 3em;
+}
+a {
+  text-decoration: none;
+  color: #0645ad;
+  background: none;
+}
+path.country{
+  fill: #9c9c9c;
+  stroke: black;
+  stroke-width: 0.1;
+  fill-opacity: 0.4;
+}
+path.selected{
+  fill: red;
+  fill-opacity: 0.55;
+}
+path.country:hover{
+  fill-opacity: 0.45;
+  cursor: default;
+}
+path.selected:hover{
+  fill-opacity: 0.95;
+  cursor: pointer;
+}
+
+path:hover {
+  cursor: grab;
+}
+
+table {
+  border: solid 1px #a2a9b1;
+  border-collapse: collapse;
+  background-color: #f8f9fa;
+}
+table th{
+  cursor: pointer;
+  background-color: #eaecf0;
+  text-align: center;
+}
+table td{
+  line-height: 1.6;
+  border: 1px solid #a2a9b1;
+  padding: 0.2em;
+}
+table td:first-of-type{
+  padding: 0.2em 3em 0.2em 0.4em;
+}
+tr td:nth-child(2){
+  text-align: center;
+}
+#map{
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  /* padding: 0.4em 0.6em 0.2em 0.6em; */
+  text-align:center;
+
+}
+#map svg{
+  width: 100%;
+  height: 50vh;
+  background-color: #e8f4f7;
+}
+#info {
+  max-width: 25%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Wikimapping</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.js"></script>
+
+
+</head>
+
+<body>
+  <main>
+    <article>
+      <section id="info">
+        <h1>Wikimapping</h1>
+        <p>Helping visualize the world.</p>
+        <p><b>Article Analysed:</b> <a id="article-title" href="#" target="blank">Title Placeholder</a></p>
+        <p><b>Date of Analysis:</b> <span id="article-date" href="#">DD/MM/YYYY | HH:MM</span></p>
+        <p><b>Brief Description of the Subject:</b> <span id="article-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quaerat dolore nulla repudiandae inventore odio amet reprehenderit expedita dicta! Aliquam laboriosam id
+            reiciendis expedita consequatur enim iste aut ducimus maxime.</span></p>
+        <table id="article-results">
+          <th onclick="utils.sortTable(0)">Country Name </th>
+          <th onclick="utils.sortTable(1)">Mentions</th>
+        </table>
+      </section>
+      <section id="map">
+        <h2>Country Citations Map</h2>
+        <p>The article <a id="desc-title">----</a> has <span id="number-country">--</span> mentioned. <span id="number-mention">--</span>.<br> <span id="placeholder-most-mentioned"></span><a id="most-mentioned">----------</a><span
+            id="most-mentions">---</span> during the
+          article.</p>
+        <svg></svg>
+        <p><i>Use the mouse to navigate the map:<br> Scrollwheel to zoom in/out | Hover over the country to see its name and the number of times it was mentioned in the article.</i>
+        </p>
+      </section>
+    </article>
+
+
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
